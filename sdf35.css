@@ -1,0 +1,45 @@
+.box {
+
+
+    background-color: powderblue;
+    color:white;
+    width:5.7cm;
+    height:50px;
+
+    
+}
+.container{
+    margin-right: 1cm;
+}
+#readBox {
+    margin-right:0.6cm;
+}
+#github {
+   position: relative;
+   top:25px;
+   margin-right:0.2px;
+
+}
+#loginBox{
+    position: relative;
+    margin-left: 1.3cm;
+}
+#tistory {
+    position: relative;
+    top:30px;
+    margin-right:0.2px;
+}
+#home {
+    position: relative;
+    top:25px;
+    
+
+}
+#writeBox{
+
+}
+#email {
+    position: relative;
+    top:30px;
+    margin-right: 1.3cm;
+}
