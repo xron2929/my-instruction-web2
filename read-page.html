@@ -27,11 +27,34 @@
 
     </Header>
     <section>
-        <div> </div>
+        <div class="search">
+            <form action="http://localhost:8080/board" accept-charset="utf-8" method="get"> 
+                <input type="text" name="keyword" value="검색" id="textarea" maxlength="255" >
+                <input type="submit" id="searchButton">
+                <!--     text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+                        왼쪽 그림자, 오른쪽 그림자 윗쪽 그림자 아랫쪽 그림자
+                        각각 가로(음수면 왼쪽, 양수면 오른쪽), 세로(음수면 위, 양수면 아래), 색상까지있고 (색상 전에 번짐 정도 정할 수 있다)
+                -->
+
+            </form>   
+            <form action="http://localhost:8080/board" accept-charset="utf-8" method="post"> 
+                <input type="submit" id="writeButton" value="글쓰기">
+            </form>   
+            <!-- 나중에 @postMapping 쓰면 됨  https://donggu1105.tistory.com/61
+            put이나 delete은 링크 참조 저기다 @PutMapping 이렇게 쓰면 됨 -->
+        </div>
         <!-- 검색 바 , 검색, 글쓰기-->
         <article>
-            
+            <thead>
+
+            </thead>
+            <tbody>
+
+            </tbody>
+
+
         </article>
+        
         <!-- 페이지 -->
     </section>
 
@@ -44,4 +67,3 @@
 
     </footer>
 </body>
-
