@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="sdf34.css"  type="text/css">
     <meta charset="UTF-8">
 </head>
-<body>
+<body onload=pageLoad(10,12,31)>
     <Header>
     <input type="button" value="로그인" id="loginBox" class="container box" />
     <input type="button" value="회원가입" id="joinBox" class="container box" />
@@ -21,10 +21,9 @@
     <img src="tistory2.png" width="40px" height="40px"alt="My github" id="tistory" class="container"  onclick=moveTistory()>
     <!-- 얘네는 서버끼리 통신개념도 아니고 내부적으로 이동하는 것도 아니니까 굳이 get/post로 전달할 이유 x-->
     </a>
-    <img src="email2.png" width="30px" height="35px"alt="My github" id="email" class="container">
-
-
-
+    <a>
+        <img src="email2.png" width="30px" height="35px"alt="My github" id="email" class="container">
+    </a>
     </Header>
     <section>
         <div class="search">
@@ -103,33 +102,40 @@
                     </tr>
                     <tr>
                         <td class="th-id">번호22</td>
-                        <td class="th-title">오늘 리얼로 식겁했던일이 있었음</td>
-                        <td class="th-author">원숭이나무위에올라가</td>
+                        <td class="th-title">12</td>
+                        <td class="th-author">12</td>
                         <td class="th-date">작성날22짜</td>
                     </tr>
                     <tr>
                         <td class="th-id">번호22</td>
-                        <td class="th-title">제목22</td>
-                        <td class="th-author">글쓴이22</td>
-                        <td class="th-date">2019/03/02</td>
+                        <td class="th-title">12</td>
+                        <td class="th-author">12</td>
+                        <td class="th-date">작성날22짜</td>
                     </tr>
-                        
+
+                    <div class="container2"></div>
+
                     <!-- 이렇게 자동으로 커지게 설정하면 될듯-->
+                    <!-- container2 안에 페이지 구현 되어있는 로직임 -->
                 </tbody>
 
             </table>
         </article>
+
+
+
+
 
         <!-- 페이지 -->
     </section>
 
 
     <aside>
-        <div id="advice"></div>
+        <div id="advertisement"></div>
     </aside>
 
     <footer>
-        <p>간단한 게시판 만들기 - 정재광</p>
+        <h2>간단한 게시판 만들기 - 정재광</h2>
     </footer>
+    <script src="read-page.js"></script>
 </body>
-
