@@ -1,0 +1,116 @@
+header {
+    position: relative;
+    left:12cm;
+}
+section {
+    position: absolute;
+    margin-top:2cm;
+    left:1.5cm;
+}
+.marginBox {
+    position: absolute;
+    border:1px solid; padding:150px;
+    padding-left:20.5cm;
+    padding-top:8cm;
+    background-color: gray;
+    margin-bottom:0px;
+    
+}
+#marginBox2 {
+    position: absolute;
+    border:1px solid; padding-bottom:9.92cm;
+    background-color: white;
+    left:0cm;
+    padding-right:24.43cm;
+    top:2cm;
+
+}
+#marginBox3 {
+    position: absolute;
+    border:1px solid; padding-bottom:12cm;
+    padding-right:8cm;
+    top:1.2cm;
+    background-color: blanchedalmond;
+
+
+}
+#marginBox4 {
+
+    position: absolute;
+    left:0cm;
+    top:0cm;
+    border:1px solid; padding-bottom:2cm;
+    padding-right:24.42cm;
+    background-color:lightslategrey;
+    writing-mode:horizontal-tb;
+
+
+
+}
+#boardListName {
+    writing-mode:horizontal-tb;
+    position: absolute;
+    left:11.5cm;
+    top:10px;
+
+}
+.box {
+
+
+    background-color: powderblue;
+    color:white;
+    width:5.7cm;
+    height:50px;
+
+    
+}
+.container{
+    margin-right: 1cm;
+}
+#readBox {
+    margin-right:0.6cm;
+}
+#github {
+   position: relative;
+   top:25px;
+   margin-right:0.2px;
+
+}
+#loginBox{
+    position: relative;
+    margin-left: 1cm;
+}
+#tistory {
+    position: relative;
+    top:30px;
+    margin-right:0.2px;
+}
+#home {
+    position: relative;
+    top:25px;
+    
+
+}
+#writeBox{
+
+}
+#email {
+    position: relative;
+    top:30px;
+    margin:0px;
+}
+aside{
+    position: absolute;
+    top:5cm;
+    left:28cm;
+    
+}
+
+footer {
+    position: absolute;
+    margin:0px;
+    padding: 0px;
+    border:0px;
+    top:18cm;
+    left: 15cm;
+}
