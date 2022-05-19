@@ -1,0 +1,8 @@
+1. aside에 advertisement 이미지 맞춰서 넣음 
+2. x창 포토샵으로 작업
+3. x버튼 누르면 advirtisement 자동으로 꺼지도록 제작 완료
+4. 남은 여백을 옆의 header,footer,body 가 채워넣도록 제작
+5. left:42% 이렇게 구현하던것보다 left:50%+transform 이용하면 의도하던 50%가 나오는 것을 확인하고 위와 같이 제작
+
+오늘 할 일일
+글 쓰기 ui 
