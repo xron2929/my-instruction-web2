@@ -2,33 +2,34 @@
     <title>간단한 게시판 만들기</title>
     <link rel="stylesheet" href="a.css"  type="text/css">
     <meta charset="UTF-8">
+
 </head>
-<body style="overflow-x: hidden"></body>    
+<body style="overflow-x: hidden">
     <header>
-    <h1> 간단한 게시판 만들기</h1>
+    <h1 id="bodyHeader"> 간단한 게시판 만들기</h1>
     </header>
     <nav>
-    <input type="button" value="로그인" id="loginBox" class="container box" />
-    <input type="button" value="회원가입" id="joinBox" class="container box"/>
+    <input type="button" value="로그인" id="loginBox" class="container box" style="cursor:hand"/>
+    <input type="button" value="회원가입" id="joinBox" class="container box" style="cursor:hand"/>
     <!-- 도메인관련 작업, 복잡한 로직은 스프링에서 작업 -->
-    <img src="homeicone.png" width="80px" height="70px"alt="My github" id="home" class="container">
-    <input type="button" value="글쓰기" id="writeBox" class="container box"/>
-    <input type="button" value="글 조회" id="readBox" class="container box"/>
+    <img src="homeicone8.png" width="80px" height="70px"alt="My github" id="home" class="container" style="cursor:hand" />
+    <input type="button" value="글쓰기" id="writeBox" class="container box" style="cursor:hand"/>
+    <input type="button" value="글 조회" id="readBox" class="container box" style="cursor:hand"/>
     <!-- get/ post 방식 떄문에 글 쓰기랑 조회도 스프링에서 작업 -->  
     <a href="https://github.com/xron2929">
-        <img src="github.png" width="60px" alt="My github" id="github"class="container">
+        <img src="github.png" width="60px" alt="My github" id="github"class="container" style="cursor:hand">
     </a>
     <a href="https://hellocoding.tistory.com/">
-        <img src="tistory.png" width="70px" height="70px" id="tistory" class="container">
+        <img src="tistory.png" width="70px" height="70px" id="tistory" class="container" style="cursor:hand">
     </a>
     <!-- 얘네는 서버끼리 통신개념도 아니고 내부적으로 이동하는 것도 아니니까 굳이 get/post로 전달할 이유 x-->
 
-    <img src="email.png" width="50px" height="65px" id="email" class="container">
+    <img src="email.png" width="50px" height="65px" id="email" class="container" style="cursor:hand" />
     </nav>
     <section>
     <div class="marginBox">
         <div id="marginBox4">
-        <h2 id="boardListName"> 게시판 목록 </h2>
+            <h2 id="boardListName"> 게시판 목록 </h2>
         </div>
         <article>
             <div id="marginBox2"></div>
@@ -38,11 +39,15 @@
 
 
     <aside>
-        <div id="marginBox3"></div>
+        <!--<div id="marginBox3"> -->
+        <div>
+            <img src="unnamed.png" id="marginBox3">
+            <img id="exit" src="endend.png" style="cursor:hand" onclick=removeAside()>
+        </div>
     </aside>
 
     <footer>
         <p>간단한 게시판 만들기 - 정재광</p>
     </footer>
+    <script src="de.js"></script>
 </body>
-
