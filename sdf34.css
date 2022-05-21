@@ -1,57 +1,66 @@
+
+
 .box {
-
-
     background-color: powderblue;
     color:white;
     width:5.7cm;
     height:40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
-    
+}
+Header{
+    /*background-color: pink;*/
+    width: 35cm;
 }
 
 .container{
     margin-right: 1cm;
 }
 #readBox {
-    margin-right:0.6cm;
+    margin-right: 0cm;
 }
 #github {
-   position: relative;
-   top:10px;
-   margin-left:2.2cm;
-   margin-right: 0.2px;
-
+    position: absolute;
+    left:10%;
+    top:20%;
 }
 #loginBox{
     position: relative;
-    margin-left: 2cm;
+    margin-left: 2.44cm;
 }
 #tistory {
-    position: relative;
-    top:15px;
+    position: absolute;
+    left:calc(((10% + 30px) + (90% - 30px) - 40px ) / 2);
+    top:10%;
     margin-right:0.1px;
+    color: powderblue;
 }
 #home {
     position: relative;
-    top:15px;
-    
+    top:26px;
+    width:1.5cm;
+    height:1.5cm;
 
 }
 #writeBox{
 
 }
 #email {
-    position: relative;
-    top:13px;
+    position: absolute;
+    top:14%;
+    left:calc(90% - 30px);
     margin-right: 0;
 }
 
-#marginBox {
+.marginBox {
+    /*background-color: pink;*/
     position: absolute;
-    left:34.2cm;
-    top:23px;
-    border:1px solid; padding:23px;padding-left:102.5px; 
-    background-color: palevioletred;
+    left:32.5cm;
+    top:34px;
+    border:1px solid;
+    padding:23px;
+    padding-left:102.5px; 
+    background-color: powderblue;
 }
 section {
     position: absolute;
@@ -59,39 +68,50 @@ section {
     margin-top:10px;
 
 }
-
-#textarea {
+.bodyHeader {
     position: relative;
+
+    left:10.2%;
+    width: 22.8cm;
+    height: 1.3cm;
+}
+#textarea {
+    position: absolute;
     font-size:20px;
     height:1.3cm;
     width:18cm;
-    margin-left:100px;
+    margin-right: 10px;
     
 }
 #searchButton {
-    margin-left:10px;
-    position: relative;
+    position: absolute;
+    left:80.75%;
     width:2cm;
     height: 1.3cm;
     font-size:20px;
     background-color: powderblue;
     color:white;
     text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
-
 }
 
 #writeButton {
     position: absolute;
     margin: 0px;
+    left:calc(100% - 2cm);
     width:2cm;
-    top:0px;
-    left:23.4cm;
     height: 1.3cm;
     font-size:20px;
     background-color: powderblue;
     color:white;
     text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
 }
+#exit {
+    position: absolute;
+    left:34.2cm;
+    top:3.4cm;
+    width: 2cm;
+}
+
 th{
     border-top: 4px solid black;
     border-bottom: 2px solid black;
@@ -99,9 +119,10 @@ th{
 table{
     position: relative;
     text-align: center;
-    margin-left:100px;
+    margin-left:10.2%;
     border-spacing: 0px;
 	width: 22.8cm;
+    
 	table-layout: fixed;
     writing-mode:horizontal-tb;
     
@@ -117,8 +138,8 @@ tr{
 #advertisement{
     background-color: pink;
     position: absolute;
-    left:27cm;
-    top:3.3cm;
+    left:25.9cm;
+    top:3.7cm;
     width: 10cm;
     height: 15cm;
 }
@@ -129,64 +150,165 @@ footer {
     margin:0px;
     padding: 0px;
     border:0px;
-    top:18cm;
-    left: 12cm;
+    top:17cm;
+    width:22.9cm;
+    height:1.52cm;
+    /*left: 12cm;*/
+    /*background-color: pink;*/
+
 }
+
+#footerText {
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+}
+
 .container2{
-    position:absolute;
-    top:13.2cm;
-    left:2.64cm;
-    padding-right:22.76cm;
-    margin:0;
-    /*
-    border: 1px solid black;
-    padding:10px pink;
-    */
+    position: absolute;
+    top: 13.2cm;
+    left:2.4cm;
+    padding-right: 22.76cm;
+    margin: 0;
+    height: 2cm;
+
+
+
 }
-.page{
+.page {
     white-space: nowrap;
     writing-mode: horizontal-tb;
-    float:left;
+    float: left;
     position: absolute;
 }
-#page1{
-    left:5%;
 
+#page1 {
+    left: 5%;
+}
+#page2 {
+    left: 15%;
+}
+#page3 {
+    left: 25%;
+}
+#page4 {
+    left: 35%;
+}
+#page5 {
+    left: 45%;
+}
+#page6 {
+    left: 55%;
+}
+#page7 {
+    left: 65%;
+}
+#page8 {
+    left: 75%;
+}
+#page9 {
+    left: 85%;
+}
+#page10 {
+    left: 95%;
 }
 
-#page2{
+
+
+
+
+
+@media (max-width: 321px) {
+    Header {
+        /*background-color: pink;*/
+        width:35cm;
+    }
+    footer {
+        /*background-color: blue;*/
+    }
+    #loginBox {
+    margin-left: 0cm;    
+    }
+    .marginBox {
+        left:30.1cm;
+        top:34px;
+        border:1px solid;
+        padding:23px;
+        padding-left:102.5px; 
+    }
+    #textarea {
+        position: relative;
+        font-size:20px;
+        height:1.3cm;
+        width:18cm;
+        margin-left:0.1cm;
+        margin-right: 10px;
+        
+    }
+    table{
+        position: relative;
+        text-align: center;
+        margin-left:0cm;
+        border-spacing: 0px;
+        width: 22.8cm;
+        table-layout: fixed;
+        writing-mode:horizontal-tb;
+        
     
-    left:15%;
+    }
+    .bodyHeader {
+        position: relative;
 
+        left:0;
+        width: 22.8cm;
+        height: 1.3cm;
+    }
+    #searchButton {
+        position: absolute;
+        left:80.75%;
+        width:2cm;
+        height: 1.3cm;
+        font-size:20px;
+        background-color: powderblue;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+    
+    #writeButton {
+        position: absolute;
+        top:0cm;
+        margin: 0px;
+        left:calc(100% - 2cm);
+        width:2cm;
+        height: 1.3cm;
+        font-size:20px;
+        background-color: powderblue;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+    .container2{
+        position: absolute;
+        top: 13.2cm;
+        left:0cm;
+        padding-right: 22.76cm;
+        margin: 0;
+        height: 2cm;
+    
+    }
+    #advertisement{
+        /*background-color: pink;*/
+        position: absolute;
+        left:24.9cm;
+        top:3.7cm;
+        width: 8.9cm;
+        height: 15cm;
+    }
+    #exit {
+        position: absolute;
+        left:32.2cm;
+        top:3.4cm;
+        width: 2cm;
+    }
 }
 
-#page3{
-    left:25%;
-}
 
-#page4{
-    left:35%;
-}
-
-#page5{
-    left:45%;
-}
-
-#page6{
-    left:55%;
-}
-
-#page7{
-    left:65%;
-}
-
-#page8{
-    left:75%;
-}
-
-#page9{
-    left:85%;
-}
-#page10{
-    left:95%;
-}
