@@ -65,6 +65,70 @@ function min(x,y) {
     else return y;
 }
 
+function eraseAdvertisement() {
+
+    var exit=document.getElementById("exit");
+    var advertisement=document.getElementById("advertisement");
+    exit.remove();
+    advertisement.remove();
+    var table=document.getElementsByTagName("table")[0];
+    table.style.width="32.8cm";
+    var container2=document.getElementsByClassName("container2")[0];
+    container2.style.paddingRight="32.8cm";
+    var loginBox=document.getElementById("loginBox");
+    var footer=document.getElementsByTagName("footer")[0];
+    var textarea=document.getElementById("textarea");
+    var searchButton=document.getElementById("searchButton");
+    var writeButton=document.getElementById("writeButton");
+    var marginBox=document.getElementsByClassName("marginBox")[0];
+
+    footer.style.left="0cm";
+    footer.style.width="38.1cm";
+    textarea.style.width="27cm";
+    searchButton.style.left="27.9cm";
+    writeButton.style.left="30.78cm";
+    marginBox.style.left="33cm";
+
+    if (matchMedia("screen and (max-width: 352px)").matches) {
+        for (item of document.getElementsByClassName("container")) {
+            item.style.marginRight="1.5cm";
+    
+            if(item.classList=="container box") {
+                item.style.width="4.86cm";
+            }
+        }
+        searchButton.style.top="0px";
+        marginBox.style.left="29.6cm";
+
+    }
+    else {
+        loginBox.style.left="1cm";
+        for (item of document.getElementsByClassName("container")) {
+            item.style.marginRight="2cm";
+    
+            if(item.classList=="container box") {
+                item.style.width="5cm";
+            }
+        }
+    
+    // searchButton은 캐시에 있는 값이 정적으로 그대로 남아있어서 동적으로 다시 작동시켜 relative 자동으로 띄어지게 함
+
+
+
+    }
+
+    // relative 때문에 한 줄 띄어지는 문제로 absolute로 직접 좌표를 입력해서 설정함
+
+
+    return;
+}
+
+function search() {
+    var search=document.getElementById('textarea');
+    search.value="";
+    return;
+}
+
 
 
 
