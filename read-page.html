@@ -3,41 +3,45 @@
     <title>글 조회</title>
     <link rel="stylesheet" href="sdf34.css"  type="text/css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body onload=pageLoad(10,12,31)>
+<body onload=pageLoad(10,101,135)>
     <Header>
-    <input type="button" value="로그인" id="loginBox" class="container box" />
-    <input type="button" value="회원가입" id="joinBox" class="container box" />
+    <input type="button" value="로그인" id="loginBox" class="container box" style="cursor:hand" />
+    <input type="button" value="회원가입" id="joinBox" class="container box" style="cursor:hand" />
     <!-- 도메인관련 작업, 복잡한 로직은 스프링에서 작업 -->
-    <img src="homeicone.png" width="80px" height="40px"alt="My github" id="home" class="container">
-    <input type="button" value="글쓰기" id="writeBox" class="container box"/>
-    <input type="button" value="글 조회" id="readBox" class="container box"/>  
+    <img src="homeicone8.png" width="80px" height="40px"alt="My github" id="home" class="container" style="cursor:hand">
+    <input type="button" value="글쓰기" id="writeBox" class="container box" style="cursor:hand"/>
+    <input type="button" value="글 조회" id="readBox" class="container box" style="cursor:hand"/>  
     <!-- get/ post 방식 떄문에 글 쓰기랑 조회도 스프링에서 작업 -->
-    <div id="marginBox"></div> 
-    <a href="https://github.com/xron2929">
-        <img src="github2.png" width="30px" alt="My github" id="github"class="container">
-    </a>
-    <a href="https://hellocoding.tistory.com/">
-    <img src="tistory2.png" width="40px" height="40px"alt="My github" id="tistory" class="container"  onclick=moveTistory()>
-    <!-- 얘네는 서버끼리 통신개념도 아니고 내부적으로 이동하는 것도 아니니까 굳이 get/post로 전달할 이유 x-->
-    </a>
-    <a>
-        <img src="email2.png" width="30px" height="35px"alt="My github" id="email" class="container">
-    </a>
+    <div class="marginBox">
+
+            <a href="https://github.com/xron2929">
+                <img src="github2.png" width="30px" alt="My github" id="github"class="container">
+            </a>
+
+        <a href="https://hellocoding.tistory.com/">
+        <img src="tistory2.png" width="40px" height="40px"alt="My github" id="tistory" class="container"  onclick=moveTistory()>
+            <!-- 얘네는 서버끼리 통신개념도 아니고 내부적으로 이동하는 것도 아니니까 굳이 get/post로 전달할 이유 -->
+        </a>
+        <a>
+            <img src="email2.png" width="30px" height="35px"alt="My github" id="email" class="container">
+        </a>
+
+    </div> 
     </Header>
     <section>
-        <div class="search">
+        <div>
             <form action="http://localhost:8080/board" accept-charset="utf-8" method="get"> 
-                <input type="text" name="keyword" value="검색" id="textarea" maxlength="255" >
-                <input type="submit" id="searchButton">
+                <input type="text" name="keyword" value="검색" id="textarea" maxlength="255" onclick=search() >
+                <input type="submit" id="searchButton" value="검색" style="cursor:hand">
                 <!--     text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
                         왼쪽 그림자, 오른쪽 그림자 윗쪽 그림자 아랫쪽 그림자
                         각각 가로(음수면 왼쪽, 양수면 오른쪽), 세로(음수면 위, 양수면 아래), 색상까지있고 (색상 전에 번짐 정도 정할 수 있다)
                 -->
-
             </form>   
             <form action="http://localhost:8080/board" accept-charset="utf-8" method="post"> 
-                <input type="submit" id="writeButton" value="글쓰기">
+                <input type="submit" id="writeButton" value="글쓰기" style="cursor:hand">
             </form>   
             <!-- 나중에 @postMapping 쓰면 됨  https://donggu1105.tistory.com/61
             put이나 delete은 링크 참조 저기다 @PutMapping 이렇게 쓰면 됨 -->
@@ -116,7 +120,6 @@
                     <div class="container2"></div>
 
                     <!-- 이렇게 자동으로 커지게 설정하면 될듯-->
-                    <!-- container2 안에 페이지 구현 되어있는 로직임 -->
                 </tbody>
 
             </table>
@@ -131,11 +134,24 @@
 
 
     <aside>
-        <div id="advertisement"></div>
+
+        <div>
+            <img id="advertisement" src="inflearn.png" />
+            <img id="exit" src="endend.png" style="cursor:hand" onclick=eraseAdvertisement() />
+        </div>
+
     </aside>
 
     <footer>
-        <h2>간단한 게시판 만들기 - 정재광</h2>
+        <h2 id="footerText">간단한 게시판 만들기 - 정재광</h2>
     </footer>
     <script src="read-page.js"></script>
 </body>
+
+<!-- 여기서 media query 추가로 만들면 될 것 같다 -->
+
+    <!-- 1~10 페이지단위 디시인사이드처럼 가져다 쓰기 개당 10개 정도만
+        빨간색 뜨는 건 어캄? 그건 타임리프로 조정해야지? 어떻게? js로 하던가 타임리프로 하던가 만약 page=15이면 빨간색 텍스트 가져와라
+        이런느낌? ㅇㅋㅇㅋ
+        나중에 sendMail() 함수 작성
+    -->
