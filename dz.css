@@ -1,0 +1,254 @@
+
+header {
+    position: relative;
+    height:1.7cm;
+    width:20cm;
+
+}
+#bodyHeader{
+    position: absolute;
+    left:12cm;
+}
+nav {
+    position: relative;
+    height: 2.55cm;
+    width:37.4cm;
+    margin-bottom:0px ;
+
+}
+section {
+    position: relative;
+    top:1.1cm;
+    left:1.5cm;
+}
+.linkContainer{
+    left: 1.5cm;
+    position: absolute;
+    width:30.38cm;
+}
+
+#marginBox2 {
+    position: absolute;
+    border:1px solid; height:9.92cm;
+    background-color: white;
+    left:0cm;
+    width:26.46cm;
+    margin-bottom: 0px;
+    top:2cm;
+
+}
+#marginBox3 {
+    position: absolute;
+    border:1px solid;
+    height:12cm;
+    width:6.2cm;
+    top:1.2cm;
+    background-color: blanchedalmond;
+
+
+}
+#marginBox4 {
+
+    position: absolute;
+    left:0cm;
+    top:0cm;
+    margin:0px;
+    border:1px solid; 
+    height:2cm;
+    width:26.46cm;
+    background-color:powderblue;
+    writing-mode:horizontal-tb;
+
+
+
+}
+#boardListName {
+    writing-mode:horizontal-tb;
+    position: absolute;
+    left:50%;
+    top:0px;
+    transform: translate(-50%);
+    text-shadow: -1px 0px black,0px 1px black, 1px 0px black, 0px -1px black;
+    color:white;
+
+
+}
+.box {
+    position: relative;
+    background-color: powderblue;
+    color:white;
+    width:5cm;
+    height:50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size:20px;
+    
+}
+.container{
+    margin-right: 1cm;
+}
+#readBox {
+    margin-right: 0px;
+}
+.container1 {
+    /*background-color: pink;*/
+    position: relative;
+    height: 2.4cm;
+    left:29.45cm;
+    margin:0px;
+    
+    width:8cm;
+}
+#github {
+   position: relative;
+   border: 0cm;
+   top:15px;
+   margin-right:0.2px;
+   text-decoration-line:none;
+}
+#loginBox{
+    position: relative;
+    
+}
+#tistory {
+    position: relative;
+    top:20px;
+    margin-right:0.2px;
+    text-decoration : none;
+
+}
+#home {
+    position: relative;
+    top:29px;
+}
+a {
+    text-decoration-line:none;
+}
+#writeBox{
+
+}
+#email {
+    position: relative;
+    top:20px;
+    margin:0px;
+}
+#setting {
+    position: relative;
+    top:25px;
+    margin:0px;
+}
+aside{
+    position: absolute;
+    top:4.36cm;
+    left:30cm;
+    
+}
+
+
+footer {
+
+    position: absolute;
+    margin:0px;
+    padding: 0px;
+    border:0px;
+    top:18cm;
+    width:37.7cm;
+    height: 1cm;
+    /*background-color: pink;*/
+
+}
+#footerText {
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+}
+#exit {
+    position: absolute;
+    left:4.84cm;
+    top:0.9cm;
+    width: 1.78cm;
+}
+
+@media (max-width: 351px) {
+
+    .linkContainer{
+        left:0;
+        position: absolute;
+        width:30.38cm;
+    }
+    section {
+        
+        position: relative;
+        top:1.1cm;
+        left:0cm;
+    }
+    #loginBox{
+        position: relative;
+        margin-left: 0cm;
+    }
+    aside{
+        position: absolute;
+        top:4.36cm;
+        left:24cm;
+        
+    }
+    .box {
+        position: relative;
+        background-color: powderblue;
+        color:white;
+        width:4cm;
+        height:50px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-size:20px;
+        
+    }
+    .container1 {
+        /*background-color: pink;*/
+        position: relative;
+        height: 2.4cm;
+        left:24cm;
+        margin:0px;
+        
+        width:8cm;
+    }
+    #marginBox4 {
+
+        position: absolute;
+        left:0cm;
+        top:0cm;
+        margin:0px;
+        border:1px solid; 
+        height:2cm;
+        width:22.49cm;
+        background-color:powderblue;
+        writing-mode:horizontal-tb;
+
+    
+    }
+    #marginBox2 {
+        position: absolute;
+        border:1px solid; height:9.92cm;
+        background-color: white;
+        left:0cm;
+        width:22.49cm;
+        margin-bottom: 0px;
+        top:2cm;
+    
+    }
+    #marginBox3 {
+        position: absolute;
+        border:1px solid;
+        height:12cm;
+        width:7cm;
+        top:1.2cm;
+        background-color: blanchedalmond;
+    
+    
+    }
+    #exit {
+        position: absolute;
+        left:5.4cm;
+        top:0.9cm;
+        width: 1.78cm;
+    }
+}
+
