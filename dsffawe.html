@@ -15,46 +15,49 @@
         <input type="button" value="로그인" id="loginBox" class="container box" style="cursor:hand"/>
         <input type="button" value="회원가입" id="joinBox" class="container box" style="cursor:hand"/>
         <!-- 도메인관련 작업, 복잡한 로직은 스프링에서 작업 -->
+
         <img src="homeicone8.png" width="80px" height="70px"alt="My github" id="home" class="container" style="cursor:hand" />
         <input type="button" value="글쓰기" id="writeBox" class="container box" style="cursor:hand"/>
         <input type="button" value="글 조회" id="readBox" class="container box" style="cursor:hand"/>
         </div>
         <!-- get/ post 방식 떄문에 글 쓰기랑 조회도 스프링에서 작업 -->  
-        <div class="container1">
 
+        <div class="container1">
             <a href="https://github.com/xron2929">
-                <img src="github.png" width="60px" alt="My github" id="github"class="container" style="cursor:hand">
+                <img src="github.png"  alt="My github" id="github"class="container" style="cursor:hand">
             </a>
             <a href="https://hellocoding.tistory.com/">
-                <img src="tistory.png" width="70px" height="70px" id="tistory" class="container" style="cursor:hand">
+                <img src="tistory.png"  height="70px" id="tistory" class="container" style="cursor:hand">
             </a>
 
             <!-- 얘네는 서버끼리 통신개념도 아니고 내부적으로 이동하는 것도 아니니까 굳이 get/post로 전달할 이유 x-->
-            <img src="email.png" width="50px" height="65px" id="email" class="container" style="cursor:hand" />
-            <img src="setting2.jpg" width="70px" height="80px" id="setting" style="cursor:hand"/>
+            
+            <img src="setting2.jpg"  height="80px" id="setting" style="cursor:hand"/>
+            <img src="email.png"  height="65px" id="email" class="container" style="cursor:hand" />
+            
         </div>
     </nav>
-    <section>
+    <div class="bodyContainer">
+        <article>
             <div id="marginBox4">
                 <h2 id="boardListName"> 게시판 목록 </h2>
             </div>
-            <article>
-                <div id="marginBox2"></div>
-            </article>
-    </section>
+                <section>
+                    <div id="marginBox2"></div>
+                </section>
+        </article>
 
-
-    <aside>
-
-        <div>
-            <img src="unnamed.png" id="marginBox3">
-            <img id="exit" src="endend.png" style="cursor:hand" onclick=removeAside()>
-        </div>
-    </aside>
+        <aside>
+            <div>
+                <img src="unnamed.png" id="marginBox3">
+                <img id="exit" src="endend.png" style="cursor:hand" onclick=removeAside()>
+                <img id="hamburger" src="hamburgerend.png">
+            </div>
+        </aside>
+    </div>
 
     <footer>
         <p id="footerText">간단한 게시판 만들기 - 정재광</p>
     </footer>
     <script src="de.js"></script>
 </body>
-
