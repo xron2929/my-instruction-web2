@@ -1,0 +1,360 @@
+
+header {
+    position: relative;
+    height:7%;
+    width:80%;
+    /*background-color: pink;*/
+    
+}
+#bodyHeader{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+}
+nav {
+    position: relative;
+    height: 2.55cm;
+    width:100%;
+    margin-bottom:0px ;
+
+}
+
+section{
+    background-color: aqua;
+    left:3.7%;
+    top:2cm;
+    height:10cm;
+    position: absolute;
+    width: 95%;
+}
+article {
+    position: absolute;
+    top:1.1cm;
+    width:95%;
+    height:12.75cm;
+
+}
+.bodyContainer{
+    position: relative;
+    /*background-color: pink;*/
+    height:80%;
+}
+
+#marginBox2 {
+    position: absolute;
+    border:1px solid; 
+    height:100%;
+    background-color: white;
+    width:100%;
+    margin-bottom: 0px;
+
+}
+#marginBox3 {
+    position: absolute;
+    border:1px solid;
+    height:12cm;
+    width:6.2cm;
+    top:1.1cm;
+    background-color: blanchedalmond;
+
+
+}
+#marginBox4 {
+
+    position: absolute;
+    left:3.7%;
+    top:0cm;
+    margin:0px;
+    border:1px solid; 
+    height:2cm;
+    width:95%;
+    background-color:powderblue;
+    writing-mode:horizontal-tb;
+
+
+
+}
+#boardListName {
+    writing-mode:horizontal-tb;
+    position: absolute;
+    left:50%;
+    top:0px;
+    transform: translate(-50%);
+    text-shadow: -1px 0px black,0px 1px black, 1px 0px black, 0px -1px black;
+    color:white;
+
+
+}
+.box {
+    position: relative;
+    background-color: powderblue;
+    color:white;
+    width:20%;
+    height:50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size:20px;
+    
+}
+
+.linkContainer{
+    position: absolute;
+    width:73.7%;
+
+    height: 100%;
+}
+
+#loginBox{
+    position: absolute;
+    left:5%;
+    top:40%;   
+}
+
+#joinBox{
+    position: absolute;
+    left:27%;
+    top:40%;
+}
+#home {
+    position: absolute;
+    left:49.1%;
+    top:25%;
+    width:7%;
+
+}
+#writeBox {
+    position: absolute;
+    left:58%;
+    top:40%;
+}
+#readBox {
+    position: absolute;
+    left:80%;
+    top:40%;
+}
+
+.container1 {
+    position: absolute;
+
+    height: 100%;
+    left:73.7%;
+    margin:0px;
+    width:8cm;
+}
+#github {
+   position: absolute;
+   border: 0cm;
+   top:30%;
+   width:20%;
+   left:20%;
+   text-decoration-line:none;
+}
+
+#tistory {
+    position: absolute;
+    top:25%;
+    width:25%;
+    left:40%;
+    text-decoration : none;
+
+}
+
+a {
+    text-decoration-line:none;
+}
+#email {
+    position: absolute;
+    top:30%;
+    width:15%;
+    left:65%;
+}
+#setting {
+    position: absolute;
+    top:20.4%;
+    width:20%;
+    left:80%;
+
+}
+aside{
+    position: absolute;
+    left:78%;   
+    height: 12.75cm;
+}
+#hamburger{
+    height: 0;
+    width: 0;
+}
+
+footer {
+
+    position: absolute;
+    margin:0px;
+    padding: 0px;
+    border:0px;
+    top:18cm;
+    width:100%;
+    height: 1cm;
+    /*background-color: pink;*/
+
+}
+#footerText {
+    background-color: aquamarine;
+    position: absolute;
+    left:50%;
+    top:0cm;
+    transform: translate(-50%);
+}
+#exit {
+    position: absolute;
+    left:4.84cm;
+    top:0.9cm;
+    width: 1.78cm;
+}
+.bodyContainer{
+
+    height:13.85cm;
+    width:100%;
+}
+@media (max-width:1200px) {
+    header {
+
+        width:100%;   
+
+    }
+    #marginBox3{
+        border: 0;
+        width: 0;
+        height: 0;
+    }
+    #exit {
+        width: 0;
+        height: 0;
+    }
+    article {
+        position: relative;
+        top:1.1cm;
+        /*background-color: aqua;*/
+        width:95%;
+        height:64%;
+        left:1.1%;
+    }
+
+
+    #loginBox{
+        position: absolute;
+        left:5%;
+        top:40%;   
+    }
+    
+    #joinBox{
+        position: absolute;
+        left:30%;
+        top:40%;
+    }
+    #home {
+        height: 0%;
+        width:0%;
+    
+    }
+    #writeBox {
+        position: absolute;
+        left:55%;
+        top:40%;
+    }
+    #readBox {
+        position: absolute;
+        left:80%;
+        top:40%;
+    }
+
+    
+    .linkContainer{
+        position: absolute;
+        width:95%;
+    
+        height: 100%;
+    }
+    .container1 {
+        position: absolute;
+        height: 0%;
+        width:0%;
+    }
+    #github {
+        width:0%;
+        height: 0%;
+    }
+    
+    #tistory {
+        height:0%;
+        width:0%;
+
+
+    }
+    
+    #email {
+
+        width:0%;
+        height:0%;
+    }
+    #setting {
+        width:0%;
+        height:0%;
+    
+    }
+    aside{
+        top:2%;
+        left:90%;
+        width: 10%;
+
+    }
+    #hamburger{
+        position: relative;
+        top:-4cm;
+        left:0;
+        height: 100%;
+        max-height: 1.7cm;
+        max-width: 1.7cm;
+        width:100%;
+    }
+
+}
+@media (max-width:598px) {
+
+    #bodyHeader{
+        position: absolute;
+        left:32.5%;
+        top:50%;
+        transform: translate(0%,-50%);
+        font-size:20px;
+    }
+
+
+
+    .box{
+        font-size:18px;
+    }
+    #footerText {
+        background-color: aquamarine;
+        position: absolute;
+        left:30%;
+        transform: translate(0%);
+    }
+
+}
+@media (max-width:402px) {
+    #bodyHeader {
+        left:30%;
+        transform: translate(0%);
+        font-size:20px;
+    }
+    .box{
+        font-size:14px;
+    }
+    #footerText {
+        background-color: aquamarine;
+        position: absolute;
+        left:20%;
+        transform: translate(0%);
+    }
+
+
+}
