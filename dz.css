@@ -1,15 +1,17 @@
 
 header {
     position: relative;
-    height:7%;
+    height:12%;
     width:80%;
     /*background-color: pink;*/
-    
 }
 #bodyHeader{
     position: absolute;
+    font-size:200%;
     left:50%;
     transform: translate(-50%);
+    
+    /*background-color: aquamarine;*/
 }
 nav {
     position: relative;
@@ -20,7 +22,7 @@ nav {
 }
 
 section{
-    background-color: aqua;
+    /*background-color: aqua;*/
     left:5%;
     top:2cm;
     height:10cm;
@@ -135,18 +137,19 @@ article {
 
 .container1 {
     position: absolute;
-
+    background-color: pink;
     height: 100%;
-    left:73.7%;
+    left:78%;
     margin:0px;
     width:8cm;
+
 }
 #github {
    position: absolute;
    border: 0cm;
    top:30%;
    width:20%;
-   left:20%;
+   left:0%;
    text-decoration-line:none;
 }
 
@@ -154,7 +157,7 @@ article {
     position: absolute;
     top:25%;
     width:25%;
-    left:40%;
+    left:20%;
     text-decoration : none;
 
 }
@@ -166,13 +169,13 @@ a {
     position: absolute;
     top:30%;
     width:15%;
-    left:65%;
+    left:45%;
 }
 #setting {
     position: absolute;
     top:20.4%;
     width:20%;
-    left:80%;
+    left:60%;
 
 }
 aside{
@@ -199,7 +202,7 @@ footer {
 
 }
 #footerText {
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     position: absolute;
     left:50%;
     top:0cm;
@@ -217,11 +220,20 @@ footer {
     width:100%;
 }
 @media (max-width:1200px) {
+    #bodyHeader{
+        position: absolute;
+        font-size:180%;
+        left:50%;
+        transform: translate(-50%);
+        
+    /*    background-color: aquamarine;*/
+    }
     header {
 
         width:100%;   
 
     }
+
     #marginBox3{
         border: 0;
         width: 0;
@@ -234,7 +246,7 @@ footer {
     article {
         position: relative;
         top:1.1cm;
-        background-color: aqua;
+        /*background-color: aqua;*/
         width:95%;
         height:64%;
     
@@ -303,31 +315,16 @@ footer {
     
     }
     aside{
-        top:2%;
         left:90%;
         width: 10%;
 
     }
-    #hamburger{
-        position: relative;
-        top:-3.5cm;
-        left:0;
-        height: 100%;
-        max-height: 1.7cm;
-        max-width: 1.7cm;
-        width:100%;
-    }
+
 
 }
 @media (max-width:598px) {
 
-    #bodyHeader{
-        position: absolute;
-        left:32.5%;
-        top:50%;
-        transform: translate(0%,-50%);
-        font-size:20px;
-    }
+
 
 
 
@@ -335,24 +332,40 @@ footer {
         font-size:18px;
     }
     #footerText {
-        background-color: aquamarine;
+        /*background-color: aquamarine;*/
         position: absolute;
         left:30%;
         transform: translate(0%);
     }
 
 }
+@media (max-width:530px) {
+    #bodyHeader{
+        font-size:140%;
+    }
+    #hamburger{
+        position: absolute;
+        width:0;
+        height:0;
+    }
+}
 @media (max-width:402px) {
-    #bodyHeader {
-        left:30%;
-        transform: translate(0%);
-        font-size:20px;
+
+    #bodyHeader{
+        position: absolute;
+        font-size:120%;
+
+        left:50%;
+        transform: translate(-50%);
+        
+        /*background-color: aquamarine;*/
     }
     .box{
         font-size:14px;
     }
     #footerText {
-        background-color: aquamarine;
+        /*background-color: aquamarine;*/
+
         position: absolute;
         left:20%;
         transform: translate(0%);
@@ -360,3 +373,4 @@ footer {
 
 
 }
+
