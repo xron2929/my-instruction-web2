@@ -175,7 +175,23 @@ table{
 td {
     border-bottom: 2px solid black;
 }
+.th-id{
+    width:15%;
+    background-color: pink;
+}
+.th-title{
+    width:30%;
+    background-color: aqua;
+}
+.th-author{
+    width:20%;
+    background-color: aquamarine;
+}
 
+.th-date{
+    width:25%;
+    background-color: pink;
+}
 tr{
     height:1cm;
 
@@ -487,8 +503,8 @@ footer {
     }
     #footerText {
         position: absolute;
-        left:48%;
-        transform: translate(-50%);
+        left:25%;
+        transform: translate(0%);
     }
 }
 @media (max-width: 530px) {
@@ -526,6 +542,36 @@ footer {
         
         left:20%;
         transform:translate(0%);
+    }
+    #page1 {
+        left: 0%;
+    }
+    #page2 {
+        left: 10.4%;
+    }
+    #page3 {
+        left: 20.8%;
+    }
+    #page4 {
+        left: 31.2%;
+    }
+    #page5 {
+        left: 41.6%;
+    }
+    #page6 {
+        left: 52%;
+    }
+    #page7 {
+        left: 62.4%;
+    }
+    #page8 {
+        left: 72.8%;
+    }
+    #page9 {
+        left: 83.2%;
+    }
+    #page10 {
+        left: 94%;
     }
     
 }
@@ -591,6 +637,36 @@ footer {
         text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
         padding-left: 4px;
 
+    }
+    #page1 {
+        left: 0%;
+    }
+    #page2 {
+        left: 10%;
+    }
+    #page3 {
+        left: 20%;
+    }
+    #page4 {
+        left: 30%;
+    }
+    #page5 {
+        left: 40%;
+    }
+    #page6 {
+        left: 50%;
+    }
+    #page7 {
+        left: 60%;
+    }
+    #page8 {
+        left: 70%;
+    }
+    #page9 {
+        left: 80%;
+    }
+    #page10 {
+        left: 93.1%;
     }
 }
 @media (max-width: 430px) {
@@ -666,6 +742,36 @@ footer {
         left:15%;
 
     }
+    #page1 {
+        left: 0%;
+    }
+    #page2 {
+        left: 10%;
+    }
+    #page3 {
+        left: 20%;
+    }
+    #page4 {
+        left: 30%;
+    }
+    #page5 {
+        left: 40%;
+    }
+    #page6 {
+        left: 50%;
+    }
+    #page7 {
+        left: 60%;
+    }
+    #page8 {
+        left: 70%;
+    }
+    #page9 {
+        left: 80%;
+    }
+    #page10 {
+        left: 92%;
+    }
 }
 @media (max-width: 380px) {
 
@@ -734,5 +840,13 @@ footer {
         padding-left: 0px;
 
     }
+    #footerText {
+        position: absolute;
+        
+        left:10%;
+        transform:translate(0%);
+    }
+
     
 }
+/*
