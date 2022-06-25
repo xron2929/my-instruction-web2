@@ -1,6 +1,6 @@
 
 Header{
-    background-color: pink;
+    /*background-color: pink;*/
     width: 150%;
     height: 2cm;
     
@@ -95,7 +95,7 @@ section {
     position: absolute;
     top:3cm;
     margin-top:10px;
-    /*background-color: greenyellow;*/
+    background-color: greenyellow;
 
     width:57.9%;
 }
@@ -266,6 +266,43 @@ footer {
 }
 
 @media (max-width: 1425px) {
+    
+    .box {
+        width:17%;
+
+    }
+
+    #loginBox{
+        position: absolute;
+        left: 5%;
+        top:40px;
+        margin-right:5px;
+    }
+    #joinBox {
+        position: absolute;
+        left:27.5%;
+        top:40px;
+        margin-right:0;
+    }
+        
+    #home {
+        position: absolute;
+        width:5.2%;
+        height:1.5cm;
+        left:48%;
+        top: 30px;
+        margin-left:0;
+    }
+    #writeBox{
+        position: absolute;
+        left:56%;
+        top:40px;
+    
+    }
+    #readBox{
+
+        left:77.5%;
+    }
     .marginBox{
         width:0;
         height:0;
@@ -284,6 +321,418 @@ footer {
         width:0;
         height:0;
     }
+    footer {
+        position: absolute;
+        margin:0px;
+        padding: 0px;
+        border:0px;
+        top:17cm;
+        width:100%;
+        height:1.52cm;
+        /*left: 12cm;*/
+        background-color: pink;
+    
+    }
 
 }
-/*
+@media (max-width: 1128px) {
+    aside{
+        position: relative;
+        width: 0%;
+        height: 0;
+        left:69.1%;
+        top:0;
+        background-color: yellow;
+    }
+    #exit {
+        position: absolute;
+        top:0;
+        left:calc(100% - 1.75cm);
+        width: 0;
+    }
+
+    section {
+        position: absolute;
+        top:3cm;
+        margin-top:10px;
+        background-color: greenyellow;
+    
+        width:85%;
+    }
+
+}
+@media (max-width: 749px) {
+    #searchButton {
+        position: relative;
+        left:77.6%;
+        width:10%;
+        height: 1.3cm;
+        font-size:15px;
+        background-color: powderblue;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    
+    
+    
+    }
+    
+    #writeButton {
+        
+        position: relative;
+    
+        top:0cm;
+        left:79.3%;
+        width:10%;
+        height: 1.3cm;
+        font-size:15px;
+        background-color: powderblue;
+        
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+}
+@media (max-width: 685px) {
+    .box {
+        width:20%;
+
+    }
+    #loginBox{
+        position: absolute;
+        left: 5%;
+        top:40px;
+        margin-right:5px;
+    }
+    #joinBox {
+        position: absolute;
+        left:29%;
+        top:40px;
+        margin-right:0;
+    }
+        
+    #home {
+        position: absolute;
+        width:0%;
+        height:1.5cm;
+        left:0%;
+        top: 30px;
+        margin-left:0;
+    }
+    #writeBox{
+        position: absolute;
+        left:53%;
+        top:40px;
+    
+    }
+    #readBox{
+        left:77.5%;
+    }
+    #searchButton {
+        position: relative;
+        left:77.6%;
+        width:10%;
+        height: 1.3cm;
+        font-size:14px;
+        background-color: powderblue;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    
+    
+    
+    }
+    
+    #writeButton {
+        
+        position: relative;
+    
+        top:0cm;
+        left:79.3%;
+        width:10%;
+        height: 1.3cm;
+        font-size:14px;
+        background-color: powderblue;
+        
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+
+}
+@media (max-width: 572px) {
+    #searchButton {
+        position: relative;
+        left:77.6%;
+        width:10%;
+        height: 1.3cm;
+        font-size:14.4px;
+        background-color: powderblue;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        
+    
+    
+    }
+    
+    #writeButton {
+        
+        position: relative;
+    
+        top:0cm;
+        left:79.3%;
+        width:10%;
+        height: 1.3cm;
+        font-size:14.4px;
+        background-color: powderblue;
+        padding-left: 4px;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+    #footerText {
+        position: absolute;
+        left:48%;
+        transform: translate(-50%);
+    }
+}
+@media (max-width: 530px) {
+    #searchButton {
+        position: relative;
+        left:77.6%;
+        width:10%;
+        height: 1.3cm;
+        font-size:14px;
+        background-color: powderblue;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    
+    
+    
+    }
+    
+    #writeButton {
+        
+        position: relative;
+    
+        top:0cm;
+        left:79.1%;
+        width:10%;
+        height: 1.3cm;
+        font-size:14px;
+        padding-left: 3px;
+        background-color: powderblue;
+        
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+    #footerText {
+        position: absolute;
+        
+        left:20%;
+        transform:translate(0%);
+    }
+    
+}
+@media (max-width: 470px) {
+    #searchButton {
+        position: relative;
+        left:77.6%;
+        width:10%;
+        height: 1.3cm;
+        font-size:3px;
+        background-color: powderblue;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    
+    
+    
+    }
+    
+    #writeButton {
+        
+        position: relative;
+    
+        top:0cm;
+        left:79%;
+        width:10%;
+        height: 1.3cm;
+        font-size:3px;
+        background-color: powderblue;
+        
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+}
+@media (max-width: 460px) {
+
+    #searchButton {
+        position: relative;
+        width:10%;
+        height: 1.3cm;
+        font-size:0.01px;
+        background-color: powderblue;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        text-indent:0;
+    
+        
+      
+    }
+    
+    #writeButton {
+        
+        position: relative;
+        text-indent:0;
+
+        top:0cm;
+        left:79.3%;
+        width:10%;
+        height: 1.3cm;
+        font-size:0.01px;
+        background-color: powderblue;
+        
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        padding-left: 4px;
+
+    }
+}
+@media (max-width: 430px) {
+
+    #searchButton {
+        position: relative;
+        width:10%;
+        height: 1.3cm;
+        font-size:0.01px;
+        background-color: powderblue;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        text-indent:0;
+    
+        
+      
+    }
+    
+    #writeButton {
+        
+        position: relative;
+        text-indent:0;
+
+        top:0cm;
+        left:79.3%;
+        width:10%;
+        height: 1.3cm;
+        font-size:0.01px;
+        background-color: powderblue;
+        
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        padding-left: 3px;
+
+    }
+
+}
+@media (max-width: 410px) {
+
+    #searchButton {
+        position: relative;
+        width:10%;
+        height: 1.3cm;
+        font-size:0.01px;
+        background-color: powderblue;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        text-indent:0;
+    
+        
+      
+    }
+    
+    #writeButton {
+        
+        position: relative;
+        text-indent:0;
+
+        top:0cm;
+        left:79.3%;
+        width:10%;
+        height: 1.3cm;
+        font-size:0.01px;
+        background-color: powderblue;
+        
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        padding-left: 2px;
+
+    }
+    #footerText {
+        position: absolute;
+        left:15%;
+
+    }
+}
+@media (max-width: 380px) {
+
+    #searchButton {
+        position: relative;
+        width:10%;
+        height: 1.3cm;
+        font-size:0.01px;
+        background-color: powderblue;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        text-indent:0;
+    
+        
+      
+    }
+    
+    #writeButton {
+        
+        position: relative;
+        text-indent:0;
+
+        top:0cm;
+        left:79.3%;
+        width:10%;
+        height: 1.3cm;
+        font-size:0.01px;
+        background-color: powderblue;
+        
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        padding-left: 1px;
+
+    }
+}
+@media (max-width: 360px) {
+
+    #searchButton {
+        position: relative;
+        width:10%;
+        height: 1.3cm;
+        font-size:0.01px;
+        background-color: powderblue;
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        text-indent:0;
+    
+        
+      
+    }
+    
+    #writeButton {
+        
+        position: relative;
+        text-indent:0;
+
+        top:0cm;
+        left:79.3%;
+        width:10%;
+        height: 1.3cm;
+        font-size:0.01px;
+        background-color: powderblue;
+        
+        color:white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        padding-left: 0px;
+
+    }
+    
+}
