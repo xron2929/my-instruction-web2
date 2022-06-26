@@ -1,0 +1,938 @@
+Header {
+    /*background-color: pink;*/
+    width: 150%;
+    height: 2cm;
+
+}
+
+.container {}
+
+.box {
+    background-color: powderblue;
+    color: white;
+    width: 14.5%;
+    height: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+#loginBox {
+    position: absolute;
+    left: 5%;
+    top: 40px;
+    margin-right: 5px;
+}
+
+#joinBox {
+    position: absolute;
+    left: 25%;
+    top: 40px;
+    margin-right: 0;
+}
+
+#home {
+    position: absolute;
+    width: 5.2%;
+    height: 1.5cm;
+    left: 42%;
+    top: 35px;
+    margin-left: 0;
+}
+
+#writeBox {
+    position: absolute;
+    left: 50%;
+    top: 40px;
+
+}
+
+#readBox {
+    position: absolute;
+    left: 70%;
+    top: 40px;
+}
+
+.right {
+    position: absolute;
+    left: 69.1%;
+    width: 26%;
+    /*background-color: red;*/
+    height: 2cm;
+
+}
+
+.marginBox {
+    background-color: powderblue;
+    position: absolute;
+    display: inline;
+    padding: 22px;
+    padding-right: 102.5px;
+    border: 1px solid;
+    left: calc(100% - 132px);
+    top: 0.7cm;
+
+}
+
+#github {
+    position: absolute;
+    left: 5%;
+    top: 18%;
+}
+
+#tistory {
+    position: absolute;
+    left: calc(((10% + 30px) + (90% - 30px) - 40px) / 2);
+    top: 6%;
+    margin-right: 0.1px;
+    color: powderblue;
+}
+
+#email {
+    position: absolute;
+    top: 9%;
+    left: calc(90% - 24px);
+    margin-right: 0;
+}
+
+section {
+    position: absolute;
+    top: 3cm;
+    margin-top: 10px;
+    background-color: greenyellow;
+
+    width: 100%;
+}
+
+.bodyHeader {
+    /*background-color: pink;*/
+    position: relative;
+    left: 7.4%;
+    width: 100%;
+    height: 1.3cm;
+}
+
+#textarea {
+    position: absolute;
+    font-size: 20px;
+    height: 1.3cm;
+    width: 75%;
+    margin: 0;
+
+
+}
+
+/*
+ searchButton이랑 write Button은 둘다 absolute에서 
+*/
+#searchButton {
+    position: absolute;
+    left: 77.6%;
+    width: 20%;
+    height: 10cm;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+
+
+
+}
+
+#writeButton {
+
+    position: relative;
+
+    top: 0cm;
+    left: 79.5%;
+    width: 10%;
+    height: 1.3cm;
+    font-size: 20px;
+    background-color: powderblue;
+
+    color: white;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+#inline {
+    display: inline;
+}
+
+#exit {
+    position: absolute;
+    top: 0;
+    left: calc(100% - 1.75cm);
+    width: 2cm;
+}
+
+th {
+    border-top: 4px solid black;
+    border-bottom: 2px solid black;
+}
+
+table {
+    position: relative;
+    text-align: center;
+    left: 7.4%;
+    border-spacing: 0px;
+    width: 100%;
+
+    table-layout: fixed;
+    writing-mode: horizontal-tb;
+
+
+}
+
+td {
+    border-bottom: 2px solid black;
+}
+
+.th-id {
+    width: 15%;
+    background-color: pink;
+}
+
+.th-title {
+    width: 30%;
+    background-color: aqua;
+}
+
+.th-author {
+    width: 20%;
+    background-color: aquamarine;
+}
+
+.th-date {
+    width: 25%;
+    background-color: pink;
+}
+
+tr {
+    height: 1cm;
+
+}
+
+aside {
+    position: relative;
+    width: 26%;
+    height: 15cm;
+    left: 69.1%;
+    top: 1cm;
+    background-color: yellow;
+}
+
+#advertisement {
+    background-color: pink;
+    position: absolute;
+    top: 0cm;
+    width: 100%;
+    height: 15cm;
+}
+
+
+footer {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    top: 17cm;
+    width: 100%;
+    height: 1.52cm;
+    /*left: 12cm;*/
+    background-color: pink;
+
+}
+
+#footerText {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container2 {
+    position: relative;
+
+    left: 7.4%;
+    padding-right: 100%;
+    margin: 0;
+    height: 1cm;
+    /*background-color: pink;*/
+
+
+}
+
+.page {
+    white-space: nowrap;
+    writing-mode: horizontal-tb;
+    float: left;
+    position: absolute;
+}
+
+#page1 {
+    left: 8.72%;
+}
+
+#page2 {
+    left: 17.45%;
+}
+
+#page3 {
+    left: 26.18%;
+}
+
+#page4 {
+    left: 34.90%;
+}
+
+#page5 {
+    left: 43.63%;
+}
+
+#page6 {
+    left: 52.36%;
+}
+
+#page7 {
+    left: 61.09%;
+}
+
+#page8 {
+    left: 69.81%;
+}
+
+#page9 {
+    left: 78.54%;
+}
+
+#page10 {
+    left: 87.27%;
+}
+
+@media (max-width: 1425px) {
+
+    .box {
+        width: 17%;
+
+    }
+
+    #loginBox {
+        position: absolute;
+        left: 5%;
+        top: 40px;
+        margin-right: 5px;
+    }
+
+    #joinBox {
+        position: absolute;
+        left: 27.5%;
+        top: 40px;
+        margin-right: 0;
+    }
+
+    #home {
+        position: absolute;
+        width: 5.2%;
+        height: 1.5cm;
+        left: 48%;
+        top: 30px;
+        margin-left: 0;
+    }
+
+    #writeBox {
+        position: absolute;
+        left: 56%;
+        top: 40px;
+
+    }
+
+    #readBox {
+
+        left: 77.5%;
+    }
+
+    .marginBox {
+        width: 0;
+        height: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    #tistory {
+        width: 0;
+        height: 0;
+    }
+
+    #email {
+        width: 0;
+        height: 0;
+    }
+
+    #github {
+        width: 0;
+        height: 0;
+    }
+
+    footer {
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        top: 17cm;
+        width: 100%;
+        height: 1.52cm;
+        /*left: 12cm;*/
+        background-color: pink;
+
+    }
+
+}
+
+@media (max-width: 1128px) {
+    aside {
+        position: relative;
+        width: 0%;
+        height: 0;
+        left: 69.1%;
+        top: 0;
+        background-color: yellow;
+    }
+
+    #exit {
+        position: absolute;
+        top: 0;
+        left: calc(100% - 1.75cm);
+        width: 0;
+    }
+
+    section {
+        position: absolute;
+        top: 3cm;
+        margin-top: 10px;
+        background-color: greenyellow;
+
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 749px) {
+    #searchButton {
+        position: relative;
+        left: 77.6%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 15px;
+        background-color: powderblue;
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+
+
+
+    }
+
+    #writeButton {
+
+        position: relative;
+
+        top: 0cm;
+        left: 79.3%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 15px;
+        background-color: powderblue;
+
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+}
+
+@media (max-width: 685px) {
+    .box {
+        width: 20%;
+
+    }
+
+    #loginBox {
+        position: absolute;
+        left: 5%;
+        top: 40px;
+        margin-right: 5px;
+    }
+
+    #joinBox {
+        position: absolute;
+        left: 29%;
+        top: 40px;
+        margin-right: 0;
+    }
+
+    #home {
+        position: absolute;
+        width: 0%;
+        height: 1.5cm;
+        left: 0%;
+        top: 30px;
+        margin-left: 0;
+    }
+
+    #writeBox {
+        position: absolute;
+        left: 53%;
+        top: 40px;
+
+    }
+
+    #readBox {
+        left: 77.5%;
+    }
+
+    #searchButton {
+        position: relative;
+        left: 77.6%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 14px;
+        background-color: powderblue;
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+
+
+
+    }
+
+    #writeButton {
+
+        position: relative;
+
+        top: 0cm;
+        left: 79.3%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 14px;
+        background-color: powderblue;
+
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+
+}
+
+@media (max-width: 572px) {
+    #searchButton {
+        position: relative;
+        left: 77.6%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 14.4px;
+        background-color: powderblue;
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+
+
+
+    }
+
+    #writeButton {
+
+        position: relative;
+
+        top: 0cm;
+        left: 79.3%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 14.4px;
+        background-color: powderblue;
+        padding-left: 4px;
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+
+    #footerText {
+        position: absolute;
+        left: 25%;
+        transform: translate(0%);
+    }
+}
+
+@media (max-width: 530px) {
+    #searchButton {
+        position: relative;
+        left: 77.6%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 14px;
+        background-color: powderblue;
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+
+
+
+    }
+
+    #writeButton {
+
+        position: relative;
+
+        top: 0cm;
+        left: 79.1%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 14px;
+        padding-left: 3px;
+        background-color: powderblue;
+
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+
+    #footerText {
+        position: absolute;
+
+        left: 20%;
+        transform: translate(0%);
+    }
+
+    #page1 {
+        left: 0%;
+    }
+
+    #page2 {
+        left: 10.4%;
+    }
+
+    #page3 {
+        left: 20.8%;
+    }
+
+    #page4 {
+        left: 31.2%;
+    }
+
+    #page5 {
+        left: 41.6%;
+    }
+
+    #page6 {
+        left: 52%;
+    }
+
+    #page7 {
+        left: 62.4%;
+    }
+
+    #page8 {
+        left: 72.8%;
+    }
+
+    #page9 {
+        left: 83.2%;
+    }
+
+    #page10 {
+        left: 94%;
+    }
+
+}
+
+@media (max-width: 470px) {
+    #searchButton {
+        position: relative;
+        left: 77.6%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 3px;
+        background-color: powderblue;
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+
+
+
+    }
+
+    #writeButton {
+
+        position: relative;
+
+        top: 0cm;
+        left: 79%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 3px;
+        background-color: powderblue;
+
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+}
+
+@media (max-width: 460px) {
+
+    #searchButton {
+        position: relative;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 0.01px;
+        background-color: powderblue;
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        text-indent: 0;
+
+
+
+    }
+
+    #writeButton {
+
+        position: relative;
+        text-indent: 0;
+
+        top: 0cm;
+        left: 79.3%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 0.01px;
+        background-color: powderblue;
+
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        padding-left: 4px;
+
+    }
+
+    #page1 {
+        left: 0%;
+    }
+
+    #page2 {
+        left: 10%;
+    }
+
+    #page3 {
+        left: 20%;
+    }
+
+    #page4 {
+        left: 30%;
+    }
+
+    #page5 {
+        left: 40%;
+    }
+
+    #page6 {
+        left: 50%;
+    }
+
+    #page7 {
+        left: 60%;
+    }
+
+    #page8 {
+        left: 70%;
+    }
+
+    #page9 {
+        left: 80%;
+    }
+
+    #page10 {
+        left: 93.1%;
+    }
+}
+
+@media (max-width: 430px) {
+
+    #searchButton {
+        position: relative;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 0.01px;
+        background-color: powderblue;
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        text-indent: 0;
+
+
+
+    }
+
+    #writeButton {
+
+        position: relative;
+        text-indent: 0;
+
+        top: 0cm;
+        left: 79.3%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 0.01px;
+        background-color: powderblue;
+
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        padding-left: 3px;
+
+    }
+
+}
+
+@media (max-width: 410px) {
+
+    #searchButton {
+        position: relative;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 0.01px;
+        background-color: powderblue;
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        text-indent: 0;
+
+
+
+    }
+
+    #writeButton {
+
+        position: relative;
+        text-indent: 0;
+
+        top: 0cm;
+        left: 78.4%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 0.01px;
+        background-color: powderblue;
+
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        padding-left: 2px;
+
+    }
+
+    #footerText {
+        position: absolute;
+        left: 15%;
+
+    }
+
+    #page1 {
+        left: 0%;
+    }
+
+    #page2 {
+        left: 10%;
+    }
+
+    #page3 {
+        left: 20%;
+    }
+
+    #page4 {
+        left: 30%;
+    }
+
+    #page5 {
+        left: 40%;
+    }
+
+    #page6 {
+        left: 50%;
+    }
+
+    #page7 {
+        left: 60%;
+    }
+
+    #page8 {
+        left: 70%;
+    }
+
+    #page9 {
+        left: 80%;
+    }
+
+    #page10 {
+        left: 92%;
+    }
+}
+
+@media (max-width: 380px) {
+
+    #searchButton {
+        position: relative;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 0.01px;
+        background-color: powderblue;
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        text-indent: 0;
+        padding-left: 4px;
+
+
+    }
+
+    #writeButton {
+
+        position: relative;
+        text-indent: 0;
+
+        top: 0cm;
+        left: 79.3%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 0.01px;
+        background-color: powderblue;
+
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        padding-left: 1px;
+
+    }
+}
+
+@media (max-width: 360px) {
+
+    #searchButton {
+        position: relative;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 0.01px;
+        background-color: powderblue;
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        padding-left: 3px;
+
+
+
+    }
+
+    #writeButton {
+
+        position: relative;
+        text-indent: 0;
+
+        top: 0cm;
+        left: 79.3%;
+        width: 10%;
+        height: 1.3cm;
+        font-size: 0.01px;
+        background-color: powderblue;
+
+        color: white;
+        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        padding-left: 0px;
+
+    }
+
+    #footerText {
+        position: absolute;
+
+        left: 10%;
+        transform: translate(0%);
+    }
+
+
+}
+
+/*
