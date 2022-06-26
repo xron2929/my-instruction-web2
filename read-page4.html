@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body onload=pageLoad(10,101,135)>
+<body>
     <Header>
         <input type="button" value="로그인" id="loginBox" class="container box" style="cursor:hand" />
         <input type="button" value="회원가입" id="joinBox" class="container box" style="cursor:hand" />
@@ -32,26 +32,35 @@
     <section>
         <div class="bodyHeader">
             <form action="http://localhost:8080/board" accept-charset="utf-8" method="get" id="inline" > 
-                <input type="text" name="username" value="이름" id="username" maxlength="255" onclick=search() >
-                <input type="password" name="password" value="비밀번호" id="password" maxlength="255" onclick=search() >
-                <input type="text" name="title" value="제목" id="title" maxlength="255" onclick=search() >
+                <div class="item2"></div>
+                <div class="item1">
+                <input type="text" name="username" value="이름" id="username" maxlength="255" onclick=eraseUsername() >
+                <input type="password" name="password" value="비밀번호" id="password" maxlength="255" onclick=erasePassword() >
+                <input type="text" name="title" value="제목" id="title" maxl multipleength="255" onclick=eraseTitle() >
                 <!-- model 값에 해당 글 제목 내용+ id + password 다 넘김 -->
-                
-                <input type="submit" id="searchButton" value="검색2" style="cursor:hand">
+                <input type="submit" id="writeButton" value="글쓰기" style="cursor:hand">
+                </div>
+               
+                <label for="input-file">
+                    <img src="file.jpeg" id="file" style="cursor:hand"/>
+                </label>
+                <input type="file" name="파일" encType="multipart/form-data" multiple id="input-file" >
                 <!--     text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
                         왼쪽 그림자, 오른쪽 그림자 윗쪽 그림자 아랫쪽 그림자
                         각각 가로(음수면 왼쪽, 양수면 오른쪽), 세로(음수면 위, 양수면 아래), 색상까지있고 (색상 전에 번짐 정도 정할 수 있다)
                 -->
+
             </form>   
             <!-- 나중에 @postMapping 쓰면 됨  https://donggu1105.tistory.com/61
             put이나 delete은 링크 참조 저기다 @PutMapping 이렇게 쓰면 됨 -->
             <!-- display inline으로 form으로 인한 들여쓰기 막기 가능-->
         </div>
+        
         <!-- 검색 바 , 검색, 글쓰기-->
         <article>
     
         </article>
-
+        
         
         <!-- 페이지 -->
     </section>
@@ -60,7 +69,7 @@
     <footer>
         <h2 id="footerText">간단한 게시판 만들기 - 정재광</h2>
     </footer>
-    <script src="read-page3.js"></script>
+    <script src="read-page5.js"></script>
 </body>
 
 <!-- 여기서 media query 추가로 만들면 될 것 같다 -->
