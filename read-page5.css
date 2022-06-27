@@ -96,7 +96,7 @@ Header {
 
 section {
     position: absolute;
-    top: 3cm;
+    top: 2.95cm;
     margin-top: 10px;
     background-color: powderblue;
     height:14cm;
@@ -285,7 +285,7 @@ footer {
     width: 98.7%;
     height: 1.52cm;
     /*left: 12cm;*/
-    background-color:white;
+
 
 
 }
@@ -417,7 +417,7 @@ footer {
     }
     section {
         position: absolute;
-        top: 3cm;
+        top: 2.95cm;
         margin-top: 10px;
         width: 98%;
 
@@ -461,23 +461,11 @@ footer {
     }
     section {
         position: absolute;
-        top: 3cm;
+        top: 2.95cm;
         margin-top: 10px;
         width: 97.4%;
     }
-    footer {
-        position: absolute;
-        margin: 0px;
-        padding: 0px;
-        border: 0px;
-        top: 17cm;
-        width: 97.7%;
-        height: 1.52cm;
-        /*left: 12cm;*/
-        background-color:white;
-        border-top:solid black 1px;
-    
-    }
+
     
 }
 
@@ -540,11 +528,16 @@ footer {
     }
     section {
         position: absolute;
-        top: 3cm;
+        top: 2.95cm;
         margin-top: 10px;
         width: 96.5%;
     }
+    #footerText {
+        position: absolute;
 
+        left: 25%;
+        transform: translate(0%);
+    }
 }
 
 @media (max-width: 572px) {
@@ -552,7 +545,7 @@ footer {
     #footerText {
         position: absolute;
 
-        left: 20%;
+        left: 22.5%;
         transform: translate(0%);
     }
     .item2{
@@ -584,6 +577,12 @@ footer {
         width:99.7%;
         height: 1cm;
     }
+    #footerText {
+        position: absolute;
+
+        left: 20%;
+        transform: translate(0%);
+    }
 }
 
 @media (max-width: 460px) {
@@ -597,7 +596,7 @@ footer {
     }
     section {
         position: absolute;
-        top: 3cm;
+        top: 2.95cm;
         margin-top: 10px;
         width: 96%;
     }
@@ -649,6 +648,12 @@ footer {
         border-left: 2px solid black;
         width:1.8cm;
     }
+    #footerText {
+        position: absolute;
+
+        left: 9%;
+        transform: translate(0%);
+    }
 
 }
 
@@ -658,7 +663,7 @@ footer {
     #footerText {
         position: absolute;
 
-        left: 10%;
+        left: 8%;
         transform: translate(0%);
     }
     
