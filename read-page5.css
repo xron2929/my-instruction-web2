@@ -99,7 +99,7 @@ section {
     top: 3cm;
     margin-top: 10px;
     background-color: powderblue;
-    height:15cm;
+    height:14cm;
     border:solid black 1px;
     width: 98.5%;
 }
@@ -286,7 +286,7 @@ footer {
     height: 1.52cm;
     /*left: 12cm;*/
     background-color:white;
-    border-top:solid black 1px;
+
 
 }
 
@@ -374,19 +374,7 @@ footer {
         height: 0;
     }
 
-    footer {
-        position: absolute;
-        margin: 0px;
-        padding: 0px;
-        border: 0px;
-        top: 17cm;
-        width: 98.76%;
-        height: 1.52cm;
-        /*left: 12cm;*/
-        border-top:solid black 1px;
-        /*background-color: pink;*/
 
-    }
 
 #title{
     position:relative;
@@ -398,8 +386,8 @@ footer {
     position: absolute;
     font-size: 15px;
     background-color: powderblue;
-    color: white;
-    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     height: 1cm;
     left:calc(100% - 2.8cm);
     width:2.8cm;
@@ -427,12 +415,12 @@ footer {
         left: calc(100% - 1.75cm);
         width: 0;
     }
-
     section {
         position: absolute;
         top: 3cm;
         margin-top: 10px;
         width: 98%;
+
     }
 
     #title{
@@ -445,8 +433,8 @@ footer {
         position: absolute;
         font-size: 15px;
         background-color: powderblue;
-        color: white;
-        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        color: black;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
         height: 1cm;
         left:calc(100% - 2.6cm);
         width:2.6cm;
@@ -465,8 +453,8 @@ footer {
         position: absolute;
         font-size: 15px;
         background-color: powderblue;
-        color: white;
-        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        color: black;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
         height: 1cm;
         left:calc(100% - 2.5cm);
         width:2.5cm;
@@ -476,6 +464,19 @@ footer {
         top: 3cm;
         margin-top: 10px;
         width: 97.4%;
+    }
+    footer {
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        top: 17cm;
+        width: 97.7%;
+        height: 1.52cm;
+        /*left: 12cm;*/
+        background-color:white;
+        border-top:solid black 1px;
+    
     }
     
 }
@@ -531,8 +532,8 @@ footer {
         position: absolute;
         font-size: 15px;
         background-color: powderblue;
-        color: white;
-        text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+        color: black;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
         height: 1cm;
         left:calc(100% - 2cm);
         width:2cm;
@@ -543,6 +544,7 @@ footer {
         margin-top: 10px;
         width: 96.5%;
     }
+
 }
 
 @media (max-width: 572px) {
@@ -593,6 +595,12 @@ footer {
         height:1cm;
     
     }
+    section {
+        position: absolute;
+        top: 3cm;
+        margin-top: 10px;
+        width: 96%;
+    }
     
 
 }
@@ -618,46 +626,13 @@ footer {
         left: 15%;
 
     }
-
-    #page1 {
-        left: 0%;
+    section {
+        position: absolute;
+        top: 3cm;
+        margin-top: 10px;
+        width: 95.5%;
     }
-
-    #page2 {
-        left: 10%;
-    }
-
-    #page3 {
-        left: 20%;
-    }
-
-    #page4 {
-        left: 30%;
-    }
-
-    #page5 {
-        left: 40%;
-    }
-
-    #page6 {
-        left: 50%;
-    }
-
-    #page7 {
-        left: 60%;
-    }
-
-    #page8 {
-        left: 70%;
-    }
-
-    #page9 {
-        left: 80%;
-    }
-
-    #page10 {
-        left: 92%;
-    }
+    
 }
 
 @media (max-width: 380px) {
@@ -691,8 +666,8 @@ footer {
         position: absolute;
         font-size: 15px;
         background-color: powderblue;
-        color: white;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        color: black;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
         height: 1cm;
         left:calc(100% - 1.5cm);
         border: 1px solid black;
